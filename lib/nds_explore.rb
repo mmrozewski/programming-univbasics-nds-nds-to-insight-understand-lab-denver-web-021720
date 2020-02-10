@@ -118,16 +118,18 @@ studio_array = []
   
   studio_array[0] == gross_array[0]
   
-  while index && index_two < studio_array.length do
+  while index < studio_array.length && index_two < studio_array.length do
     if studio_array[index] == studio_array[index_two]
       studio_array[index] = studio_array.delete_at(index_two)
       gross_array[index] += gross_array.delete_at(index_two)
       
       index_two += 1
+    else
+      index_two += 1  
     end
-  
-  index_two += 1  
-  
+    
+    index += 1
+    index_two = index + 1
   
     
   end 
