@@ -124,14 +124,15 @@ studio_array = []
        gross_array[index] += gross_array.delete_at(index_two)
       
       
-    end
+    else
     index_two += 1
-    
+  end
+  index += 1 
     
   
     
   end 
-  index += 1 
+   
   
   puts gross_array
   puts "\n"
