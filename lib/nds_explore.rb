@@ -127,7 +127,7 @@ studio_array = []
     end
   
   index_two += 1  
-  index += 1
+  
   
     
   end 
