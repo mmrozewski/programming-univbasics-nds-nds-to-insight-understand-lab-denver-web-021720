@@ -117,10 +117,15 @@ studio_array = []
   
   
   while index < studio_array.length do
-    if studio_array[0] == studio_array[index_two]
+    if studio_array[0] != studio_array[index_two]
        index_two += 1
-    end
-   end 
+       
+    
+   else
+     studio_array[0] = 0
+   end
+   
+   index_two = 0
    
    index = 0
   
