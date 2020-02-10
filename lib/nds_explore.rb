@@ -119,7 +119,7 @@ studio_array = []
   puts "\n"
   puts studio_array
   
-  studio_array[0] == gross_array [0]
+  studio_array[0] == sample_coll[0][:worldwide_gross]
   
   while index && index_two < 2 do
     if studio_array[index] == studio_array[index_two]
