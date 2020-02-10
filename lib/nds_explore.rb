@@ -118,7 +118,7 @@ studio_array = []
   
   studio_array[0] == gross_array[0]
   
-  while index && index_two < 3 do
+  while index && index_two < studio_array.length do
     if studio_array[index] == studio_array[index_two]
       studio_array[index] = studio_array.delete_at(index_two)
       gross_array[index] += gross_array.delete_at(index_two)
