@@ -121,7 +121,7 @@ studio_array = []
   
   studio_array[0] == sample_coll[0][:worldwide_gross]
   
-  while index && index_two < 2 do
+  while index && index_two < 4 do
     if studio_array[index] == studio_array[index_two]
       studio_array = studio_array.delete_at(index_two)
       gross_array[index] += gross_array.delete_at(index_two)
