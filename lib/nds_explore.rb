@@ -117,9 +117,9 @@ studio_array = []
   
   
   while index < studio_array.length do
-    if studio_array != gross_array[index]
-       studio_array[0] == gross_array[0]
-     end
+    if studio_array[0] == studio_array[index_two]
+       index_two += 1
+    end
    end 
    
    index = 0
