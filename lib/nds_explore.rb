@@ -125,7 +125,13 @@ studio_array = []
     if studio_array[index] == studio_array[index_two]
       studio_array = studio_array.delete_at(index_two)
       gross_array[index] += gross_array.delete_at(index_two)
+      
+      index_two += 1
     end
+    
+    index += 1
+    index_two = index + 1
+    
   end 
   
   puts gross_array
