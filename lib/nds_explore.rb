@@ -125,11 +125,13 @@ studio_array = []
       
       index_two += 1
     end
-    
+  
+  index_two += 1  
   index += 1
   
     
   end 
+end
   
   puts gross_array
   puts "\n"
