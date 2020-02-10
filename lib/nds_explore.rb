@@ -102,30 +102,18 @@ end
 
  
 result = {}
-studio_index = 0
-gross_index = 0
-studio_gross = 0
+index = 0 
+index_two = 1 
+gross_array = []
+studio_array = []
+
+  while index < sample_coll.length do
+    gross_array << sample_coll[index][:worldwide_gross]
+    studio_array << sample_coll[index][:studio]
+    index += 1
+  end
   
-  while studio_index < sample_coll.length do
-    while gross_index < sample_coll.length do
-      if sample_coll[studio_index][:studio] == sample_coll[gross_index][:studio]
-        
-        result[sample_coll[studio_index][:studio]] = sample_coll[studio_index][:worldwide_gross] + sample_coll[gross_index][:worldwide_gross]
-        
-        gross_index += 1
-      else
-        gross_index += 1
-      end
-    end
-    
-    
-    
-    studio_index += 1 
-    
-    result[sample_coll[studio_index][:studio]] = [sample_coll[studio_index][:worldwide_gross]]
-  end 
- 
-puts result
+  
 
 
 
