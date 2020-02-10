@@ -120,7 +120,7 @@ studio_array = []
   
   while index && index_two < 5 do
     if studio_array[index] == studio_array[index_two]
-      studio_array = studio_array.delete_at(index_two)
+      studio_array[index] = studio_array.delete_at(index_two)
       gross_array[index] += gross_array.delete_at(index_two)
       
       index_two += 1
