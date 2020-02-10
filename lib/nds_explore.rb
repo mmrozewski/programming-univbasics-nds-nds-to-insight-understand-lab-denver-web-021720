@@ -113,7 +113,14 @@ studio_array = []
     index += 1
   end
   
+  index = 0
   
+  puts gross_array
+  puts "\n"
+  puts studio_array
+  
+  #while index && index_two < studio_array.length do
+    
 
 
 
