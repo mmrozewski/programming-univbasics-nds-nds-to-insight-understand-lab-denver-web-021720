@@ -131,7 +131,7 @@ studio_array = []
   
     
   end 
-end
+
   
   puts gross_array
   puts "\n"
