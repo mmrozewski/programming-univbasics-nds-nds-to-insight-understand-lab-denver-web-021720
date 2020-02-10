@@ -124,7 +124,7 @@ studio_array = []
    else
      studio_array[0] = 0
    end
-   
+ end 
    index_two = 0
    
    index = 0
